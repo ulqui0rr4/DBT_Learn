@@ -1,0 +1,10 @@
+version : 2
+sources:
+    - name: demo
+      database : SNOWFLAKE_LEARNING_DB
+      schema : DBT_MODELS
+
+      tables:
+        - name : bikes
+        - name : weather 
+      
